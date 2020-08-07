@@ -12,7 +12,7 @@ The first time, you will need to run
 npm install
 Then just start the server with
 
-npm devStart
+npm run devStart
 It uses nodemon for livereloading
 
 npm start 
