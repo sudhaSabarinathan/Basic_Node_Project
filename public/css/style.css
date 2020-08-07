@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #efefef;
+}
+
+h2,
+h1 {
+    color: #807777;
+    text-transform: capitalize;
+}
