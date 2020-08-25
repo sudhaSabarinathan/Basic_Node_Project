@@ -2,10 +2,89 @@ body {
     margin: 0px;
     padding: 0px;
     background: #efefef;
+    font-family: monospace,sans-serif;
+    text-align: center;
 }
 
 h2,
 h1 {
     color: #807777;
     text-transform: capitalize;
+}
+form {
+    margin:50px auto;
+    width:200px;
+    height:auto;
+    color:#807777;
+    font-size:16px;
+    text-transform: capitalize;
+}
+input{
+    color:#444;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:lighter;
+    margin-bottom:20px;
+    padding:5px;
+}
+input[type="button"]{
+    position:relative;
+    width:100px;
+    margin-left:37%;
+    font-weight:bold;
+    text-transform: capitalize;
+    border-radius:10px;
+    background:#444;
+    color:#efefef;
+    outline:none;
+
+}
+
+input[type="button"]:hover{
+    color:#444;
+    background:#efefef;
+    outline:none;
+}
+
+
+#error-group
+{
+    height: 160px;
+    width: 80%;
+    margin: 30px auto;
+    display:none;
+}
+
+#error-group li{
+    list-style-type: none;
+    color:red;
+    background: #d9d9e5;
+    padding:5px;
+}
+
+.align-center { text-align:center;}
+.align-center a{text-decoration:none; color:#545656; text-transform: capitalize;}
+
+#menu{margin: 0px;
+    padding: 0px 10px;
+    float:right;
+}
+.menuBlock{
+    height: 30px;
+    background: #444;
+}
+#menu li{margin:0px;
+    padding:0px 10px;
+    list-style-type:none;
+    float: left;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+#menu li a{
+color:#d9d9e5;
+text-decoration: none;
+}
+#menu li a:hover{
+    color:#b1b1b3;
 }
