@@ -24,3 +24,5 @@ To run all your testcases
 Create .env and enter below config before starting app:
     Node_env=
     Port=
+    Db_Connection=
+    Secret_key=
